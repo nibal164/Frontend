@@ -1,0 +1,289 @@
+.card {
+  scroll-snap-align: start;
+  border-radius: 30px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.01, 1.01);
+}
+
+.card_image {
+  border-radius: 30px;
+  width: 495px;
+}
+
+.category-specification {
+  position: absolute;
+  font-size: 40px;
+  color: antiquewhite;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: "EB Garamond", serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 300px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 35px;
+    color: antiquewhite;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "EB Garamond", serif;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 250px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 30px;
+    color: antiquewhite;
+    border: 0.9px solid white;
+    padding: 14px;
+    border-radius: 9px;
+    font-family: "EB Garamond", serif;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 230px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 25px;
+    color: antiquewhite;
+    border: 0.8px solid white;
+    padding: 13px;
+    border-radius: 8px;
+    font-family: "EB Garamond", serif;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 210px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 20px;
+    color: antiquewhite;
+    border: 0.7px solid white;
+    padding: 12px;
+    border-radius: 7px;
+    font-family: "EB Garamond", serif;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 190px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 15px;
+    color: antiquewhite;
+    border: 0.6px solid white;
+    padding: 11px;
+    border-radius: 6px;
+    font-family: "EB Garamond", serif;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 180px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 15px;
+    color: antiquewhite;
+    border: 0.5px solid white;
+    padding: 11px;
+    border-radius: 6px;
+    font-family: "EB Garamond", serif;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 170px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 10px;
+    color: antiquewhite;
+    border: 0.4px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "EB Garamond", serif;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .card {
+    scroll-snap-align: start;
+    border-radius: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .card_image {
+    border-radius: 30px;
+    width: 160px;
+  }
+  .category-specification {
+    position: absolute;
+    font-size: 5px;
+    color: antiquewhite;
+    border: 0.3px solid white;
+    padding: 9px;
+    border-radius: 4px;
+    font-family: "EB Garamond", serif;
+  }
+}

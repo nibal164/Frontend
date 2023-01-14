@@ -1,0 +1,212 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Bar Soaps",
+      "image": "/Categories/3.jpeg",
+      "subCategories": ["Facial Soaps", "Hand and Body Soaps"]
+    },
+    {
+      "id": "2",
+      "name": "Liquid Soaps",
+      "image": "/Categories/2.jpeg",
+      "subCategories": ""
+    },
+    {
+      "id": "3",
+      "name": "Skin Care",
+      "image": "/Categories/3.jpeg",
+      "subCategories": ""
+    },
+    {
+      "id": "4",
+      "name": "Scented Candles",
+      "image": "/Categories/4.jpeg",
+      "subCategories": ""
+    },
+    {
+      "id": "5",
+      "name": "Gift Sets",
+      "image": "/Categories/5.jpeg",
+      "subCategories": ""
+    },
+    {
+      "id": "6",
+      "name": "Favors",
+      "image": "/Categories/6.jpeg",
+      "subCategories": ""
+    }
+  ],
+  "subCategories": [
+    {
+      "id": "1",
+      "name": "Facial Soaps"
+    },
+    {
+      "id": "2",
+      "name": "Hand and Body Soaps"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "image": "/Products/aloe-vera-facial-soap.jpeg",
+      "name": "Aloe Vera Bar Soap",
+      "description": "Aloe Vera soap: An anti-bacterial healing formula with a blend of vitamin-enriched oils, aloe Vera gel and glycerin. All together give your face a repaired, healthy and smooth appearance. Aloe Vera gel: known for its anti-bacterial and healing properties. Repairs damaged skin caused by drying and cracking from frequent washing. Sanitizes and soothes the skin leaving it clear and healthy. Glycerin:  preserves your skin’s natural moisture making it delicate and smooth.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns. Castor oil: anti-bacterial and anti-inflammatory. High levels of vitamin E, minerals, proteins, omega 6 and 9. Reduces black heads. Dissolves and washes away sebum (oily secretions produced by the skin), replacing it with new clean oil.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "1"
+    },
+    {
+      "id": "2",
+      "image": "/Products/honey-charcoal-facial-soap.jpeg",
+      "name": "Charcoal and Honey Bar Soap",
+      "description": "Our charcoal & honey soap is a super cleansing, anti-aging and moisturizing power; all together in a bar of soap!!! Activated charcoal: absorbs toxins and excess oils. Helps better cleanse the skin. Skin pores become less visible and smaller and blackheads start to disappear. Exfoliate the skin. Honey: known for its moisturizing and antimicrobial qualities. Reduces fine lines and wrinkles to regain a radiant skin. Acts deeply to restore skin elasticity. Glycerin:  preserves your skin’s natural moisture making it delicate and smooth.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns. Castor oil: anti-bacterial and anti-inflammatory. High levels of vitamin E, minerals, proteins, omega 6 and 9. Reduces black heads. Dissolves and washes away sebum (oily secretions produced by the skin), replacing it with new clean oil.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "1"
+    },
+    {
+      "id": "3",
+      "image": "/Products/lavender-facial-soap.jpeg",
+      "name": "Lavender Bar Soap",
+      "description": "Lavender soaps has a crisp and clean fragrance with sweet and floral overtones that makes it a favorite among soaps. Its scent is known to promote not only relaxation but also a good mood.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "2"
+    },
+    {
+      "id": "4",
+      "image": "/Products/jasmine-facial-soap.jpeg",
+      "name": "Jasmine Bar Soap",
+      "description": "Our Jasmine soap scent is identical to freshly picked Jasmine flowers. This fragrance is bursting with a floral aroma, smells just like summer in a soap bar!",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "2"
+    },
+    {
+      "id": "5",
+      "image": "/Products/rose-bar-soap.jpeg",
+      "name": "Rose Bar Soap",
+      "description": "Our rose soap has a light scent that is both uplifting and inspiring. This touch of fragrance will create a warm and romantic aroma to keep you coming back again and again.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "2"
+    },
+    {
+      "id": "6",
+      "image": "/Products/pine-bar-soap.jpeg",
+      "name": "Pine Bar Soap",
+      "description": "This product is made from natural material, it contains essential oils",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "2"
+    },
+    {
+      "id": "7",
+      "image": "/Products/laurel-facial-soap.jpeg",
+      "name": "Laurel Bar Soap",
+      "description": "Aside from its amazing quality as a soap bar, it has the softest aroma that can fill your heart. Its clean and crisp fragrance always triggers your nostalgia for old Lebanese traditions.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "2"
+    },
+    {
+      "id": "8",
+      "image": "/Products/mount-spring-bar-soap.jpeg",
+      "name": "Mountain Spring Bar Soap",
+      "description": "Light, fresh, citrusy, with hints of balsam and floral notes, this scent is like a breath of fresh air on a crisp Spring morning in the mountains.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "1",
+      "subCategoryId": "2"
+    },
+    {
+      "id": "9",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Lavender Liquid Soap",
+      "description": "Lavender soaps has a crisp and clean fragrance with sweet and floral overtones that makes it a favorite among soaps. Its scent is known to promote not only relaxation but also a good mood.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "2",
+      "subCategoryId": "0"
+    },
+    {
+      "id": "10",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Jasmine Liquid Soap",
+      "description": "Our Jasmine soap scent is identical to freshly picked Jasmine flowers. This fragrance is bursting with a floral aroma, smells just like summer in a soap bar!",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "2",
+      "subCategoryId": "0"
+    },
+    {
+      "id": "11",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Rose Liquid Soap",
+      "description": "Our rose soap has a light scent that is both uplifting and inspiring. This touch of fragrance will create a warm and romantic aroma to keep you coming back again and again.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "2",
+      "subCategoryId": "0"
+    },
+    {
+      "id": "12",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Pine Liquid Soap",
+      "description": "This fresh scented soap will remind you of walking through a pine grove. It is like taking a breeze from Mount Lebanon pines. Nourishing and moisturizing leaving your skin feeling soft. ",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "2",
+      "subCategoryId": "0"
+    },
+    {
+      "id": "13",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Laurel Liquid Soap",
+      "description": "Aside from its amazing quality as a soap bar, it has the softest aroma that can fill your heart. Its clean and crisp fragrance always triggers your nostalgia for old Lebanese traditions.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "2",
+      "subCategoryId": "0"
+    },
+    {
+      "id": "14",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Mountain Spring Liquid Soap",
+      "description": "Light, fresh, citrusy, with hints of balsam and floral notes, this scent is like a breath of fresh air on a crisp Spring morning in the mountains.",
+      "ingredients": "Olive oil: penetrates deeply into your skin carrying all the vitamins and antioxidants for a youthful and healthy appearance. Coconut oil: gives the soap its cleansing and moisturizing power. Palm oil: balances between cleansing and conditioning. Fights aging and sunburns.",
+      "price": 1.5,
+      "categoryId": "2",
+      "subCategoryId": "0"
+    },
+    {
+      "id": "15",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Wedding",
+      "description": "This product is made from natural material, it contains essential oils",
+      "ingredients": "",
+      "price": 1.5,
+      "categoryId": "6",
+      "subCategoryId": "0"
+    },
+    {
+      "id": "16",
+      "image": "/Products/liquid-soap.jpeg",
+      "name": "Baby Shower",
+      "description": "This product is made from natural material, it contains essential oils",
+      "ingredients": "",
+      "price": 1.5,
+      "categoryId": "6",
+      "subCategoryId": "0"
+    }
+  ]
+}

@@ -1,0 +1,1008 @@
+.about-us-image {
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  width: 100%;
+  height: auto !important;
+}
+
+.main-logo {
+  position: absolute;
+  height: auto;
+  width: 650px;
+  margin-top: 5px;
+}
+
+.main-logo-image {
+  display: flex;
+  justify-content: center;
+}
+
+.quote-text {
+  font-family: "Caramel", cursive;
+  letter-spacing: 0rem;
+  font-size: 0px;
+}
+
+.Main {
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main-logo {
+    position: absolute;
+    width: 630px;
+  }
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .main-logo {
+    position: absolute;
+    width: 600px;
+  }
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .main-logo {
+    position: absolute;
+    width: 550px;
+  }
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .main-logo {
+    position: absolute;
+    width: 530px;
+  }
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-logo {
+    position: absolute;
+    width: 525px;
+  }
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+
+  .main-logo {
+    position: absolute;
+    width: 520px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 515px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 510px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 505px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 495px;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 490px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 485px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 480px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .quote {
+    font-family: "EB Garamond", serif;
+    font-size: 0px;
+    letter-spacing: 0rem;
+  }
+  .main-logo {
+    position: absolute;
+    width: 475px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 465px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 460px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 455px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 440px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 430px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 410px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 390px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 370px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 340px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0rem;
+    font-size: 0px;
+  }
+  .main-logo {
+    position: absolute;
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .quote-text,
+  .main-image {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 45px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 44px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 43px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 42px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 41px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 40px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 39px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: opx;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 38px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 37px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 36px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 36px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 35px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 35px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 34px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 34px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 33px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 33px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 32px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 32px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.3rem;
+    font-size: 31px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 31px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 30px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 30px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 29px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 29px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 28px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 28px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 27px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 27px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 26px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.15rem;
+    font-size: 26px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.15rem;
+    font-size: 25px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.15rem;
+    font-size: 25px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.15rem;
+    font-size: 24px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.15rem;
+    font-size: 24px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.15rem;
+    font-size: 23px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.1rem;
+    font-size: 23px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.1rem;
+    font-size: 22px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.1rem;
+    font-size: 22px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.1rem;
+    font-size: 21px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .quote-text {
+    font-family: "Caramel", cursive;
+    letter-spacing: 0.1rem;
+    font-size: 21px !important;
+  }
+  .main-logo {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+  }
+}

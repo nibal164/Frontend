@@ -1,0 +1,194 @@
+.products-list {
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title-store {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Caramel", cursive;
+  font-size: 90px;
+  color: #6a3824;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Caramel", cursive;
+    font-size: 85px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Caramel", cursive;
+    font-size: 80px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Caramel", cursive;
+    font-size: 75px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Caramel", cursive;
+    font-size: 73px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Caramel", cursive;
+    font-size: 70px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: "Caramel", cursive;
+    font-size: 68px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: "Caramel", cursive;
+    font-size: 65px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: "Caramel", cursive;
+    font-size: 60px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: "Caramel", cursive;
+    font-size: 55px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: "Caramel", cursive;
+    font-size: 52px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Caramel", cursive;
+    font-size: 50px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Caramel", cursive;
+    font-size: 45px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: "Caramel", cursive;
+    font-size: 40px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: "Caramel", cursive;
+    font-size: 35px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-family: "Caramel", cursive;
+    font-size: 30px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-family: "Caramel", cursive;
+    font-size: 25px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-family: "Caramel", cursive;
+    font-size: 20px;
+    color: #6a3824;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .title-store {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: "Caramel", cursive;
+    font-size: 15px;
+    color: #6a3824;
+  }
+}
