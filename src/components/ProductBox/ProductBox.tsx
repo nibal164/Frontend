@@ -25,14 +25,22 @@ function ProductBox(props: ProductBoxProps) {
       }
     >
       <div className="card-content">
-        <div className="card-content-description">
+        <div
+          className={
+            props.categoryId === "6" || props.categoryId === "4"
+              ? "card-content-description notClickable"
+              : "card-content-description"
+          }
+        >
           <img src={props.img} alt={props.name} className="logo" />
+          {/* {props.categoryId !== "6" && ( */}
           <div>
             <p className="name">
               <b className="name">{props.name}</b>
             </p>
             {/* <p>{props.price} $</p> */}
           </div>
+          {/* )} */}
         </div>
 
         {/* for description */}

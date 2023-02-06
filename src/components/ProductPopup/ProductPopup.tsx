@@ -1,10 +1,11 @@
 import "./ProductPopup.css";
-// import CloseIcon from "../../assets/ClosePopup/close.jpeg";
+import CloseIcon from "../../assets/ClosePopup/close.jpeg";
 import AddToCartIcon from "../../assets/AddToCartIcon/cart_8t6kp9u3x5i4_512.png";
 
 type ProductPopupProps = {
   id?: string;
   image: any;
+  secondaryImage?: any;
   name: any;
   description: any;
   ingredients: any;
@@ -17,26 +18,37 @@ function ProductPopup(props: ProductPopupProps) {
     <div className="product-popup-container">
       <div className="product-popup-overlay" onClick={props.closePopup}></div>
       <div className="product-popup-content">
-        {/* <img
+        <img
           src={CloseIcon}
           alt="Close Popup"
           className="close-button"
           onClick={props.closePopup}
-        /> */}
+        />
         {/* <div className="information-container"> */}
         <div className="product-popup-left-side">
           {" "}
-          <img src={props.image} alt={props.name} className="product-image" />
+          <img
+            src={props?.secondaryImage ? props.secondaryImage : props.image}
+            alt={props.name}
+            className="product-image"
+          />
           <h3 className="product-price">{props.price} $</h3>
         </div>
         <div className="product-popup-right-side">
           <h1 className="product-name-pu">{props.name}</h1>
           <h3 className="product-description-title">Description</h3>
           <p className="product-description">{props.description}</p>
-          <h3 className="product-description-title">Ingredients</h3>
-          <p className="product-description">{props.ingredients}</p>
+          {props.ingredients && (
+            <>
+              <h3 className="product-description-title">Ingredients</h3>
+              <p className="product-description">{props.ingredients}</p>
+            </>
+          )}
           <div className="add-to-cart-button-location">
-            <button className="add-to-cart-button">
+            <button
+              className="add-to-cart-button"
+              // onClick={() => handleAddToCart(item)}
+            >
               <img
                 className="AddToCartIcon"
                 src={AddToCartIcon}

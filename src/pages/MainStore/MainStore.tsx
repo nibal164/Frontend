@@ -47,6 +47,7 @@ function MainStore() {
       {isProductPopup ? (
         <ProductPopup
           image={product?.image}
+          secondaryImage={product?.secondaryImage}
           name={product?.name}
           description={product?.description}
           ingredients={product?.ingredients}
@@ -63,7 +64,14 @@ function MainStore() {
           <div className="products-list">
             {subCategoryItems.map((item: any) => {
               return (
-                <div key={item.id} onClick={() => setProductPopup(true)}>
+                <div
+                  key={item.id}
+                  onClick={
+                    item.categoryId === "6" || item.categoryId === "4"
+                      ? () => {}
+                      : () => setProductPopup(true)
+                  }
+                >
                   <ProductBox
                     id={item.id}
                     img={item.image}
@@ -82,7 +90,14 @@ function MainStore() {
           <div className="products-list">
             {categoryItems.map((item: any) => {
               return (
-                <div key={item.id} onClick={() => setProductPopup(true)}>
+                <div
+                  key={item.id}
+                  onClick={
+                    item.categoryId === "6" || item.categoryId === "4"
+                      ? () => {}
+                      : () => setProductPopup(true)
+                  }
+                >
                   <ProductBox
                     id={item.id}
                     img={item.image}

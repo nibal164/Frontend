@@ -773,6 +773,16 @@
     flex-direction: column;
   }
 } */
+.close-button {
+  width: 25px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
 
 .product-name-pu,
 .product-description-title,
@@ -804,6 +814,8 @@
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10000;
+  overflow: auto;
+  max-height: 80vh;
 }
 
 .information-container {
@@ -861,6 +873,9 @@
   border: none;
   letter-spacing: 1px;
   cursor: pointer;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 .add-to-cart-button:hover {
@@ -915,8 +930,6 @@
   }
 
   .add-to-cart-button {
-    margin-left: 600px;
-    margin-top: 5px;
     font-size: 20px;
   }
 
@@ -969,8 +982,6 @@
   }
 
   .add-to-cart-button {
-    margin-left: 570px;
-    margin-top: 5px;
     font-size: 20px;
   }
 
@@ -1144,6 +1155,10 @@
 }
 
 @media (max-width: 1050px) {
+  .close-button {
+    width: 23px;
+  }
+
   .product-popup-content {
     width: 900px;
     height: 530px;
@@ -1252,6 +1267,10 @@
 }
 
 @media (max-width: 950px) {
+  .close-button {
+    width: 21px;
+  }
+
   .product-popup-content {
     width: 840px;
     height: 555px;
@@ -1480,6 +1499,10 @@
 }
 
 @media (max-width: 750px) {
+  .close-button {
+    width: 19px;
+  }
+
   .product-popup-content {
     display: flex;
     flex-direction: column;
@@ -1654,6 +1677,11 @@
 }
 
 @media (max-width: 600px) {
+  .close-button {
+    width: 17px;
+    right: 14px;
+    top: 14px;
+  }
   .product-popup-content {
     display: flex;
     flex-direction: column;
@@ -1699,7 +1727,7 @@
   }
 
   .add-to-cart-button {
-    margin-left: 290px;
+    margin-left: 280px;
     margin-top: 0px;
     font-size: 13px;
   }
@@ -1757,7 +1785,7 @@
   }
 
   .add-to-cart-button {
-    margin-left: 250px;
+    margin-left: 245px;
     margin-top: 0px;
     font-size: 13px;
   }
@@ -1770,6 +1798,12 @@
 }
 
 @media (max-width: 500px) {
+  .close-button {
+    width: 15px;
+    right: 13px;
+    top: 13px;
+  }
+
   .product-popup-content {
     display: flex;
     flex-direction: column;
@@ -1873,7 +1907,7 @@
   }
 
   .add-to-cart-button {
-    margin-left: 195px;
+    margin-left: 190px;
     margin-top: 0px;
     font-size: 12px;
   }
@@ -1944,6 +1978,11 @@
 }
 
 @media (max-width: 350px) {
+  .close-button {
+    width: 13px;
+    right: 12px;
+    top: 12px;
+  }
   .product-popup-content {
     display: flex;
     flex-direction: column;

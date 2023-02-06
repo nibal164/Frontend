@@ -3,8 +3,12 @@ import "./Header.css";
 import logo from "../../assets/LogoHomePage/Soaplush.png";
 import { HashLink } from "react-router-hash-link";
 import { useEffect } from "react";
+import { useNavigate } from "react-router";
+// import Cart from "../../pages/Cart/Cart";
+import Shop from "../../assets/Avatars/icons8-shopping-bag-50.png";
 
 function Header() {
+  const navigate = useNavigate();
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -37,6 +41,15 @@ function Header() {
             <HashLink className="header-menu-item-link" to="/#ContactUs">
               Contact Us
             </HashLink>
+          </li>
+          <li
+            className="header-menu-item header-menu-item-link"
+            onClick={() => navigate("cart")}
+          >
+            <div className="cart-container">
+              <img src={Shop} alt="" className="shop" />
+              <span className="quantity-number">3</span>
+            </div>
           </li>
         </ul>
       </div>
