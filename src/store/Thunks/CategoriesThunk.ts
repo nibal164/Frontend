@@ -12,7 +12,7 @@ export const getAllCategoriesRequest = () => (dispatch: any) => {
     dispatch(setLoading());
     //API call
     CategoriesService.getAllCategories().then((response: any) => {
-      //dispath
+      //dispatch
       dispatch(getAllCategoriesSuccess(response.data));
       dispatch(removeLoading());
     });

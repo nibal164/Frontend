@@ -13,7 +13,7 @@ export const getAllProductsRequest = () => (dispatch: any) => {
 
     //API call
     ProductsService.getAllProducts().then((response: any) => {
-      //dispath
+      //dispatch
       dispatch(getAllProductsSuccess(response.data));
       dispatch(removeLoading());
     });

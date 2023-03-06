@@ -21,3 +21,11 @@ export const updateProductSuccess = (product: any) => ({
   type: UPDATE_PRODUCT_SUCCESS,
   payload: product,
 });
+
+export const ADD_PRODUCT_TO_CART = "ADD_PRODUCT_TO_CART";
+export const addProductToCart = (product: any) => {
+  return {
+    type: ADD_PRODUCT_TO_CART,
+    payload: product,
+  };
+};

@@ -3,6 +3,7 @@ import {
   CREATE_PRODUCT_SUCCESS,
   DELETE_PRODUCT_SUCCESS,
   UPDATE_PRODUCT_SUCCESS,
+  ADD_PRODUCT_TO_CART,
 } from "../Actions/ProductsActions";
 const initialState = [] as any;
 
@@ -30,6 +31,12 @@ const ProductReducer = (state = initialState, action: any) => {
         }
       });
       return array;
+
+    case ADD_PRODUCT_TO_CART:
+      return {
+        ...state,
+        items: [...state.items, action.payload],
+      };
 
     default:
       return state;

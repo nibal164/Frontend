@@ -882,6 +882,10 @@
   color: burlywood;
 }
 
+.add-to-cart-button:active {
+  transform: translateY(1px);
+}
+
 .AddToCartIcon {
   width: 21px;
   height: 21px;

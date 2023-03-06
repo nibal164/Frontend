@@ -47,7 +47,7 @@ function ProductPopup(props: ProductPopupProps) {
           <div className="add-to-cart-button-location">
             <button
               className="add-to-cart-button"
-              // onClick={() => handleAddToCart(item)}
+              // onClick={() => handleAddProduct(productItem )}
             >
               <img
                 className="AddToCartIcon"
